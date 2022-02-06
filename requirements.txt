@@ -1,0 +1,7 @@
+Jinja2
+jupytext
+bokeh
+streamlit
+pandas
+PyGithub
+python-dotenv
