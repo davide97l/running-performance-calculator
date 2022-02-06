@@ -1,36 +1,29 @@
-# rl-traingenerator
+# Running Performance Calculator
 
-Automatic code generator for training Reinforcement Learning policies:joystick:
+👉 Have you ever wondered if you ran 10km at 2000m altitude, how fast would you ran the same distance at lower altitudes? How would elevation gain and temperature affect your performance? 🤔
+
+👉 The goal of this application is to calculate your running pace and time would change given different elevation gain, altitude and temperature.
 
 <p align="center">
-    <img src="docs/assets/rl-traingenerator.gif" width=600>
+    <img src="docs/assets/dist.png" width=600>
+</p>
+
+<p align="center">
+    <img src="docs/assets/env.png" width=600>
 </p>
 
 <h3 align="center">
     Try it out: <br>
-    <a href="https://rl-traingenerator.herokuapp.com/">https://rl-traingenerator.herokuapp.com/</a>
+    <a href="https://share.streamlit.io/davide97l/running-performance-calculator/main/app/main.py">https://share.streamlit.io/davide97l/running-performance-calculator/main/app/main.py</a>
 </h3>
 
-<br>
-
-Generate custom template code to train you reinforcement learning policy using a simple web UI built with [streamlit](https://www.streamlit.io/).
-It includes different environments and can be expanded to support multiple policies and frameworks with an high level of flexible hyperparameters customization.
-The generated code can be easily downloaded as .py file or Jupyter Notebook so to immediately start training your model or use it as a baseline for your project.
-The backbone of this project has been taken from this [repository](https://traingenerator.jrieke.com) where you can contribute with your own template.
 
 ## Features
 
-Supported frameworks:
-- [Tianshou](https://github.com/thu-ml/tianshou)
-
-Supported policies:
-- DQN
-- More to come...
-
-Compatible environments:
-- Atari: Pong, Breakout, MsPacman, ...
-- Classic Control: CartPole, Acrobot
-- Box2D: LunarLander
+- Support for default or custom distances
+- Compute pace and time according to elevation gain, altitude and temperature
+- Clean and user-friendly interface
+- The author has over 10 years or running experience including track, road, and trail running
 
 ---
 
@@ -38,24 +31,16 @@ Compatible environments:
 
 Clone this repository and set up the environment:
 ```bash
-git clone https://github.com/davide97l/rl-traingenerator/
-cd rl-traingenerator
-pip install -r requirements.txt
+git clone https://github.com/davide97l/running-performance-calculator
+cd running-performance-calculator
+pip install streamlit
 ```
 Run it locally:
 ```bash
 streamlit run app/main.py
 ```
-Deploying to Heroku:
-```
-heroku create
-git push heroku main
-heroku open
-```
-Update deployed app:
-```
-git push heroku main
-```
+
+---
 
 ## Support
 If you found this project interesting please support me by giving it a :star:, I would really appreciate it :grinning:
