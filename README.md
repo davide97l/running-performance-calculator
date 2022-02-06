@@ -1,15 +1,16 @@
 # Running Performance Calculator
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/davide97l/running-performance-calculator/main/app/main.py)
+
 👉 Have you ever wondered if you ran 10km at 2000m altitude, how fast would you ran the same distance at lower altitudes? How would elevation gain and temperature affect your performance? 🤔
 
 👉 The goal of this application is to calculate your running pace and time would change given different elevation gain, altitude and temperature.
 
 <p align="center">
-    <img src="docs/assets/dist.png" width=600>
-</p>
-
-<p align="center">
     <img src="docs/assets/env.png" width=600>
+</p>
+<p align="center">
+    <img src="docs/assets/dist.png" width=600>
 </p>
 
 <h3 align="center">
