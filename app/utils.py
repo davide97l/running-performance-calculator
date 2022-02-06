@@ -62,7 +62,6 @@ def sec_to_time(sec):
     h = int(sec / 3600)
     m = int(sec % 3600 / 60)
     s = int(sec % 3600 % 60)
-    print(h, m, s)
     return h, m, s
 
 
