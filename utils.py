@@ -229,7 +229,7 @@ def show():
 
         st.write("## Note ✔️")
 
-        st.info("The above data is an estimation of your hypothetical performance. Real stats may very according to your"
+        st.info("The above data is an estimation of your hypothetical performance. Real stats may vary according to your"
                 " degree of acclimatization to the target environment and your overall fitness.")
 
 
