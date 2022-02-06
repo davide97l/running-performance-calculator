@@ -4,7 +4,7 @@
 
 👉 Have you ever wondered if you ran 10km at 2000m altitude, how fast would you ran the same distance at lower altitudes? How would elevation gain and temperature affect your performance? 🤔
 
-👉 The goal of this application is to calculate your running pace and time would change given different elevation gain, altitude and temperature.
+👉 The goal of this application is to calculate how your running pace and time would change given different elevation gain, altitude and temperature.
 
 <p align="center">
     <img src="docs/assets/env.png" width=600>
