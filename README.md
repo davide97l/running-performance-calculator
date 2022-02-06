@@ -38,7 +38,7 @@ pip install streamlit
 ```
 Run it locally:
 ```bash
-streamlit run app/main.py
+streamlit run main.py
 ```
 
 ---
