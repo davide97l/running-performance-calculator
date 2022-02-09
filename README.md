@@ -1,4 +1,4 @@
-# Running Performance Calculator
+# Running Performance Calculator: Altitude, Elevation Gain, and Temperature
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/davide97l/running-performance-calculator/main)
 
