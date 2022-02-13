@@ -47,7 +47,7 @@ def pace_elevation(dist, time, elev):
     if slope >= 0:
         c = 0.033
     else:
-        c = 0.018
+        c = 0.033
     delta_elev = slope * c * time
     return delta_elev
 
