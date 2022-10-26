@@ -185,14 +185,14 @@ def show():
 
         st.write("## Target Environment 🎯")
         column1, column2 = st.columns(2)
-        elev_t = column1.number_input("Write the elevation gain here (m)", -100000, 100000, 0, key='target')
+        elev_t = column1.number_input("Write the elevation gain here (m)", -100000, 100000, 0, key='elev')
         column1.write("Average inclination: {:.2f}%".format(incline(distance, elev_t)))
-        alt_t = column2.number_input("Write the altitude here (m)", 0, 10000, 0, key='target')
+        alt_t = column2.number_input("Write the altitude here (m)", 0, 10000, 0, key='alt')
         column1, column2 = st.columns(2)
-        temp_t = column1.number_input("Write the temperature here", -100, 100, 16, key='target')
+        temp_t = column1.number_input("Write the temperature here", -100, 100, 16, key='temp')
         temp_unit_t = column2.radio(
             "Unit",
-            ('Celsius (°C)', 'Fahrenheit (°F)'), key='target')
+            ('Celsius (°C)', 'Fahrenheit (°F)'), key='temp_unit')
         if temp_unit_t == 'Fahrenheit (°F)':
             temp_t = f_to_c(temp_t)
             temp_unit_str_t = "°F"
